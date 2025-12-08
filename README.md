@@ -1,6 +1,6 @@
-# 💻 Kunj Desai — Portfolio Website
+# 💻YUVAN SHANKAR— Portfolio Website
 Welcome to my personal portfolio website built with **React.js**, **Framer Motion**, and **modern UI design** principles.
-It showcases my work, projects, skills, and journey as a developer passionate about **AI, ML, and Web Technologies**.
+It showcases my work, projects, skills, and journey as a developer passionate about **Ethical Hacking and Web Technologies**.
 
 
 
@@ -59,6 +59,8 @@ Every push to the `main` branch triggers an automatic rebuild and deployment.
 
 This project is open source and available under the [MIT License](LICENSE).
 Feel free to fork, use, and build upon it ⭐
+
+WEBSITE: https://portfolio-website-eta-7.vercel.app/
 
 ---
 
