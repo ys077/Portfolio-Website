@@ -10,7 +10,7 @@ const PROJECTS = [
     ss: '/ISL.png',
     tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
     live: '#',
-    code: 'https://github.com/kunjdesai/ISL-Interpreter'
+
   },
   {
   title: '💼 Portfolio Website',
@@ -18,7 +18,7 @@ const PROJECTS = [
   ss: '/portfolio.jpg',
   tech: ['React', 'Framer Motion', 'Tailwind CSS'],
   live: '#',
-  code: 'https://github.com/kunj2803/Kunj-Portfolio'
+  code: 'https://github.com/ys077/Portfolio-Website.git'
   },
   
 
