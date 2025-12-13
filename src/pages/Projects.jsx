@@ -9,8 +9,8 @@ const PROJECTS = [
     desc: 'Real-time gesture recognition and translation using Mediapipe + TensorFlow, enabling live sign-to-text interpretation.',
     ss: '/ISL.png',
     tech: ['Mediapipe', 'TensorFlow', 'React', 'Flask'],
-    live: '#',
-
+    live: 'https://signspeak-ten.vercel.app/',
+    code: 'https://github.com/ys077/SIGN-SPEAK.git'
   },
   {
   title: '💼 Portfolio Website',
