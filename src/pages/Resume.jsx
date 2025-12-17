@@ -131,7 +131,9 @@ export default function Resume() {
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Projects</h4>
           <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
             
-            <li>1️⃣ Indian Sign Language Interpreter (In Progress)</li>
+            <li>1️⃣ Indian Sign Language Interpreter </li>
+            <li>2️⃣ Portfolio Website </li>
+            
            
           </ul>
         </motion.div>
@@ -147,9 +149,7 @@ export default function Resume() {
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
             {[
               "Python",
-              "C",
               "Firebase",
-              "Java",
               "TensorFlow",
               "OpenCV",
               "Streamlit",
