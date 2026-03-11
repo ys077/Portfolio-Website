@@ -12,7 +12,7 @@ const CERTS = {
       link: "/certs/AI TOOLS WORKSHOP.jpg",
     },
     {
-      title: "ETYHICAL HACKING WORSHOP",
+      title: "ETHICAL HACKING WORSHOP",
       org: "IIT MADRAS",
       date: "2025",
       img: "/certs/Certificate of IIT MADRAS.jpg",
@@ -57,8 +57,13 @@ export default function Certificates() {
 
   return (
     <section className="container" style={{ padding: "40px 0" }}>
-      <div className="card" style={{ background: "#111", borderRadius: 12, padding: 24 }}>
-        <h2 style={{ fontSize: "1.8rem", color: "#fff", marginBottom: 4 }}>Certificates 🏅</h2>
+      <div
+        className="card"
+        style={{ background: "#111", borderRadius: 12, padding: 24 }}
+      >
+        <h2 style={{ fontSize: "1.8rem", color: "#fff", marginBottom: 4 }}>
+          Certificates 🏅
+        </h2>
         <p className="lead" style={{ color: "#aaa" }}>
           Explore my certifications — technical & others.
         </p>
