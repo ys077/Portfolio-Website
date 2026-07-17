@@ -40,7 +40,8 @@ const AboutMe = () => {
           style={{
             fontSize: "1.9rem",
             marginBottom: "1.2rem",
-            background: "linear-gradient(90deg, var(--accent), var(--accent-2))",
+            background:
+              "linear-gradient(90deg, var(--accent), var(--accent-2))",
             WebkitBackgroundClip: "text",
             color: "transparent",
           }}
@@ -57,11 +58,11 @@ const AboutMe = () => {
           }}
         >
           Hi, I’m <strong>YUVAN SHANKAR</strong> — an aspiring{" "}
-          <strong>AI Enthusiast</strong> and{" "}
-          <strong>Developer</strong> and{" "} <strong>Ethical Hacking Practioner</strong> who loves turning ideas
-          into intelligent systems. I’m deeply fascinated by how data and
-          algorithms can shape the future of healthcare, automation, and
-          creativity in technology.
+          <strong>AI Enthusiast</strong> and <strong>Developer</strong> and{" "}
+          <strong>Mern Stack Developer</strong> who loves turning ideas into
+          intelligent systems. I’m deeply fascinated by how data and algorithms
+          can shape the future of healthcare, automation, and creativity in
+          technology.
         </p>
 
         <p style={{ fontSize: "1.1rem", color: "rgba(255,255,255,0.8)" }}>
@@ -73,8 +74,11 @@ const AboutMe = () => {
         </p>
 
         <p>
-            2nd-year B.E cse(cyber security) student with hands-on experience in Networking tools . Proficient in Python,full stack development with integration of AI and AI Intelligent Tools. Seeking internship opportunities to apply skills and contribute to
-            impactful AI solutions.
+          3rd-year B.E cse(cyber security) student with hands-on experience in
+          Networking tools . Proficient in Python,full stack development with
+          integration of AI and AI Intelligent Tools. Seeking internship
+          opportunities to apply skills and contribute to impactful AI
+          solutions.
         </p>
 
         {/* --- Education Section --- */}
@@ -131,7 +135,8 @@ const AboutMe = () => {
                     fontSize: "1.25rem",
                   }}
                 >
-                  B.E - CSE(CYBER SECURITY)                </h4>
+                  B.E - CSE(CYBER SECURITY){" "}
+                </h4>
                 <p
                   style={{
                     color: "rgba(255,255,255,0.85)",
@@ -141,7 +146,7 @@ const AboutMe = () => {
                   <strong>SRI SAI RAM INSTITUTE OF TECHNOLOGY</strong> — CHENNAI
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
-                  2nd Year (Pursuing) | GPA: 9.2
+                  3rd Year (Pursuing) | GPA: 9.2
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>2024 – 2028</p>
               </div>
@@ -182,12 +187,17 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>BHARATHIDHASNAR MATRIC HIGHER SECONDARY SCHOOL</strong> —  ARAKKONAM
+                  <strong>
+                    BHARATHIDHASNAR MATRIC HIGHER SECONDARY SCHOOL
+                  </strong>{" "}
+                  — ARAKKONAM
                 </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
                   TAMIL NADU BOARD | Percentage: 92%
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2024</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>
+                  Completed in 2024
+                </p>
               </div>
             </motion.div>
 
@@ -226,11 +236,17 @@ const AboutMe = () => {
                     marginBottom: "0.2rem",
                   }}
                 >
-                  <strong>BHARATHIDHASNAR MATRIC HIGHER SECONDARY SCHOOL</strong> - ARAKKONAM                </p>
+                  <strong>
+                    BHARATHIDHASNAR MATRIC HIGHER SECONDARY SCHOOL
+                  </strong>{" "}
+                  - ARAKKONAM{" "}
+                </p>
                 <p style={{ color: "rgba(255,255,255,0.7)" }}>
                   TAMIL NADU BOARD | Percentage: 91%
                 </p>
-                <p style={{ color: "rgba(255,255,255,0.7)" }}>Completed in 2022</p>
+                <p style={{ color: "rgba(255,255,255,0.7)" }}>
+                  Completed in 2022
+                </p>
               </div>
             </motion.div>
           </div>

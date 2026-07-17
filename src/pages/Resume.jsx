@@ -56,7 +56,8 @@ export default function Resume() {
               👨‍💻 YUVAN SHANKAR B
             </h3>
             <p style={{ margintop: 10, fontSize: 15, color: "#ccc" }}>
-              2nd Year B.E — CSE(cyber security) | SRI SAI RAM INSTITUTE OF TECHNOLOGY
+              3rd Year B.E — CSE(cyber security) | SRI SAI RAM INSTITUTE OF
+              TECHNOLOGY
             </p>
             <p style={{ margin: "4px 0", fontSize: 14, color: "#aaa" }}>
               📍 TIRUTTANI, TIRUVALLUR, TAMILNADU
@@ -80,10 +81,10 @@ export default function Resume() {
           >
             <strong style={{ color: "#00b4ff" }}>Professional Summary:</strong>
             <p style={{ marginTop: 6, color: "#ccc" }}>
-              2nd-year B.E cse(cyber security) experienced in ethical hacking practising, Full stack development.
-              Skilled in Python, TensorFlow, Firebase,AI tools. Passionate about
-              building impactful AI systems and seeking opportunities to contribute to
-              real-world AI projects.
+              3rd-year B.E cse(cyber security) experienced in React development,
+              MERN stack development. Skilled in Python, TensorFlow, Firebase,AI
+              tools. Passionate about building impactful AI systems and seeking
+              opportunities to contribute to real-world AI projects.
             </p>
           </motion.div>
         </motion.div>
@@ -104,17 +105,31 @@ export default function Resume() {
           <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>
             🎓 Education
           </h4>
-          <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
+          <ul
+            style={{
+              listStyle: "none",
+              padding: 0,
+              margin: 0,
+              lineHeight: 1.8,
+            }}
+          >
             <li>
-              <strong>B.E - CSE(CYBER SECURITY)</strong> — SRI SAI RAM INSTITUTE OF TECHNOLOGY, 2024–2028 <br />
+              <strong>B.E - CSE(CYBER SECURITY)</strong> — SRI SAI RAM INSTITUTE
+              OF TECHNOLOGY, 2024–2028 <br />
               <span style={{ color: "#aaa" }}>GPA: 9.2</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>12th Board — BHARATHIDHASNAR MATRIC HIGHER SECONDARY SCHOOL</strong> (Tamil Nadu Board, 2024) <br />
+              <strong>
+                12th Board — BHARATHIDHASNAR MATRIC HIGHER SECONDARY SCHOOL
+              </strong>{" "}
+              (Tamil Nadu Board, 2024) <br />
               <span style={{ color: "#aaa" }}>Percentage: 92%</span>
             </li>
             <li style={{ marginTop: 8 }}>
-              <strong>10th Board — BHARATHIDHASNAR MATRIC HIGHER SECONDARY SCHOOL</strong> (Tamil Nadu Board, 2022)
+              <strong>
+                10th Board — BHARATHIDHASNAR MATRIC HIGHER SECONDARY SCHOOL
+              </strong>{" "}
+              (Tamil Nadu Board, 2022)
               <br />
               <span style={{ color: "#aaa" }}>Percentage: 91%</span>
             </li>
@@ -128,13 +143,19 @@ export default function Resume() {
           transition={{ delay: 0.8 }}
           style={{ marginTop: 40 }}
         >
-          <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>💼 Projects</h4>
-          <ul style={{ listStyle: "none", padding: 0, margin: 0, lineHeight: 1.8 }}>
-            
+          <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>
+            💼 Projects
+          </h4>
+          <ul
+            style={{
+              listStyle: "none",
+              padding: 0,
+              margin: 0,
+              lineHeight: 1.8,
+            }}
+          >
             <li>1️⃣ Indian Sign Language Interpreter </li>
             <li>2️⃣ Portfolio Website </li>
-            
-           
           </ul>
         </motion.div>
 
@@ -145,7 +166,9 @@ export default function Resume() {
           transition={{ delay: 1 }}
           style={{ marginTop: 40 }}
         >
-          <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>⚙️ Skills</h4>
+          <h4 style={{ fontSize: 20, color: "#00b4ff", marginBottom: 12 }}>
+            ⚙️ Skills
+          </h4>
           <div style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
             {[
               "Python",
@@ -163,7 +186,10 @@ export default function Resume() {
             ].map((skill) => (
               <motion.span
                 key={skill}
-                whileHover={{ scale: 1.1, backgroundColor: "rgba(0,180,255,0.3)" }}
+                whileHover={{
+                  scale: 1.1,
+                  backgroundColor: "rgba(0,180,255,0.3)",
+                }}
                 style={{
                   background: "rgba(255,255,255,0.05)",
                   padding: "6px 12px",
@@ -190,7 +216,10 @@ export default function Resume() {
         >
           {[
             { name: "💻 GitHub", link: "https://github.com/ys077/ys077.git" },
-            { name: "💼 LinkedIn", link: "https://www.linkedin.com/in/yuvan-shankar-b-9691742bb?utm_source=share_via&utm_content=profile&utm_medium=member_android" },
+            {
+              name: "💼 LinkedIn",
+              link: "https://www.linkedin.com/in/yuvan-shankar-b-9691742bb?utm_source=share_via&utm_content=profile&utm_medium=member_android",
+            },
           ].map((site) => (
             <motion.a
               key={site.name}
@@ -254,8 +283,6 @@ export default function Resume() {
         >
           ⬇️ Download Resume
         </motion.a>
-
-
       </motion.div>
     </section>
   );

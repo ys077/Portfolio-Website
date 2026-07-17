@@ -25,6 +25,20 @@ const CERTS = {
       img: "/certs/cisco.jpg",
       link: "/certs/cisco.jpg",
     },
+    {
+      title: "TATA - GEN AI DATA ANALYTICS",
+      org: "FORAGE powered by TATA",
+      date: "2026",
+      img: "/certs/TATA - GEN AI data analytics_page-0001.jpg",
+      link: "/certs/TATA - GEN AI data analytics_page-0001.jpg",
+    },
+    {
+      title: "WEB DEVELOPMENT USING JAVASCRIPT",
+      org: "CODE CHEF",
+      date: "2026",
+      img: "/certs/Web development using JavaScript_pages-to-jpg-0001.jpg",
+      link: "/certs/Web development using JavaScript_pages-to-jpg-0001.jpg",
+    },
   ],
   other: [
     {
@@ -47,6 +61,20 @@ const CERTS = {
       date: "2025",
       img: "/certs/rinex google certificate.jpg",
       link: "/certs/rinex google certificate.jpg",
+    },
+    {
+      title: "CLOUD COMPUTING",
+      org: "NPTEL - IIT",
+      date: "2026",
+      img: "/certs/NPTEL - Cloud Computing_pages-to-jpg-0001.jpg",
+      link: "/certs/NPTEL - Cloud Computing_pages-to-jpg-0001.jpg",
+    },
+    {
+      title: "PYTHON FOR DATA SCIENCE",
+      org: "NPTEL - IIT",
+      date: "2026",
+      img: "/certs/python for data science NPTEL_pages-to-jpg-0001.jpg",
+      link: "/certs/python for data science NPTEL_pages-to-jpg-0001.jpg",
     },
   ],
 };
